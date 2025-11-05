@@ -5,8 +5,8 @@ $temario = $_GET['temario'] ?? '';
 $numPreguntas = $_GET['num_preguntas'] ?? 10;
 
 // Cargar preguntas desde JSON
-$jsonData = file_get_contents('preguntas.json');
-$preguntasData = json_decode($jsonData, true);
+$jsonFile = file_exists('preguntas.json') ? 'preguntas.json' : 'preguntas_ejemplo.json';
+$preguntasData = json_decode(file_get_contents($jsonFile), true);
 
 // Validar temario
 if (!isset($preguntasData[$temario])) {

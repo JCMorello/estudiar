@@ -1,0 +1,38 @@
+{
+  "aprendizaje_1": [
+    {
+      "pregunta": "¿Cuál es el río más largo del mundo?",
+      "opcion1": "Nilo",
+      "opcion2": "Amazonas",
+      "opcion3": "Yangtsé",
+      "opcion4": "Misisipi",
+      "correcta": "opcion2"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra el desierto del Sahara?",
+      "opcion1": "Asia",
+      "opcion2": "América",
+      "opcion3": "África",
+      "opcion4": "Oceanía",
+      "correcta": "opcion3"
+    }
+  ],
+  "aprendizaje_2": [
+    {
+      "pregunta": "¿Quién escribió 'Cien años de soledad'?",
+      "opcion1": "Mario Vargas Llosa",
+      "opcion2": "Gabriel García Márquez",
+      "opcion3": "Julio Cortázar",
+      "opcion4": "Pablo Neruda",
+      "correcta": "opcion2"
+    },
+    {
+      "pregunta": "¿En qué siglo vivió William Shakespeare?",
+      "opcion1": "Siglo XV",
+      "opcion2": "Siglo XVI",
+      "opcion3": "Siglo XVII",
+      "opcion4": "Siglo XVIII",
+      "correcta": "opcion2"
+    }
+  ]
+}
