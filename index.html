@@ -1,6 +1,3 @@
-<?php
-// index.php
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -19,11 +16,10 @@
                 <div class="card-body">
                     <h1 class="text-center mb-4">🧠 Test de Estudio</h1>
 
-                    <form action="test.php" method="GET">
-                        <!-- Select Temario -->
+                    <form id="formInicio">
                         <div class="mb-3">
                             <label for="temario" class="form-label">Selecciona el temario:</label>
-                            <select class="form-select" name="temario" id="temario" required>
+                            <select class="form-select" id="temario" required>
                                 <option value="" selected disabled>Elige un tema...</option>
                                 <option value="aprendizaje_1">Aprendizaje y desarrollo de la personalidad Tema 1</option>
                                 <option value="aprendizaje_2">Aprendizaje y desarrollo de la personalidad Tema 2</option>
@@ -32,10 +28,9 @@
                             </select>
                         </div>
 
-                        <!-- Número de preguntas -->
                         <div class="mb-3">
                             <label for="num_preguntas" class="form-label">Número de preguntas:</label>
-                            <input type="number" class="form-control" id="num_preguntas" name="num_preguntas" 
+                            <input type="number" class="form-control" id="num_preguntas"
                                    min="1" max="50" value="10" required>
                         </div>
 
@@ -50,5 +45,6 @@
     </div>
 </div>
 
+<script src="app.js"></script>
 </body>
 </html>
