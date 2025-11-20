@@ -28,6 +28,7 @@
                                 <option value="aprendizaje_1">Aprendizaje y desarrollo de la personalidad Tema 1</option>
                                 <option value="aprendizaje_2">Aprendizaje y desarrollo de la personalidad Tema 2</option>
                                 <option value="aprendizaje_3">Aprendizaje y desarrollo de la personalidad Tema 3</option>
+                                <option value="aprendizaje_total">Aprendizaje y desarrollo de la personalidad TODO</option>
                             </select>
                         </div>
 

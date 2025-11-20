@@ -33,6 +33,47 @@
       "opcion3": "Siglo XVII",
       "opcion4": "Siglo XVIII",
       "correcta": "opcion2"
+    },
+    {
+      "pregunta": "Según Carl Jung, el desarrollo de la personalidad implica un proceso de individuación que:",
+      "opcion1": "Requiere reprimir los contenidos inconscientes para mantener el control racional de la conducta.",
+      "opcion2": "Supone integrar los aspectos conscientes e inconscientes del yo para alcanzar una identidad más completa y equilibrada.",
+      "opcion3": "Consiste en ajustar la conducta externa a las expectativas sociales predominantes.",
+      "opcion4": "Ninguna de las anteriores",
+      "correcta": "opcion2"
+    },
+    {
+      "pregunta" : "En la teoría de Carl Rogers, la tendencia de actualización constituye el núcleo del desarrollo humano porque:",
+      "opcion1" : "Explica la necesidad de conformidad con los valores externos impuestos por el entorno.",
+      "opcion2" : "Se limita al aprendizaje de habilidades instrumentales para adaptarse al contexto social.",
+      "opcion3" : "Representa la fuerza interna que impulsa al individuo hacia la autorrealización, la coherencia interna y el bienestar psicológico.",
+      "opcion4" : "Ninguna de las anteriores",
+      "correcta" : "opcion3"
+    },
+    {
+      "pregunta" : "En el modelo de los “Big Five” de McCrae y Costa, la dimensión de responsabilidad (o escrupulosidad) se asocia con:",
+      "opcion1" : "Un alto nivel de autodisciplina, planificación y orientación hacia metas, lo que contribuye a la autorregulación del aprendizaje.",
+      "opcion2" : "Una disposición a asumir riesgos y a explorar experiencias nuevas sin evaluar consecuencias.",
+      "opcion3" : "La tendencia a experimentar emociones intensas que dificultan el control de la conducta.",
+      "opcion4" : "Ninguna de las anteriores",
+      "correcta" : "opcion1"
+    },
+    {
+      "pregunta" : "Eysenck planteó tres dimensiones básicas de la personalidad —psicoticismo, extraversión y neuroticismo—, cuya combinación permite:",
+      "opcion1" : "Interpretar la personalidad como un conjunto de hábitos adquiridos en contextos culturales específicos.",
+      "opcion2" : "Explicar la variabilidad interindividual en términos de predisposiciones biológicas estables que influyen en la conducta.",
+      "opcion3" : "Definir rasgos exclusivamente aprendidos mediante refuerzo y modelado social.",
+      "opcion4" : "Ninguna de las anteriores",
+      "correcta" : "opcion2"
+    },
+    {
+      "pregunta" : "Según George Kelly, los constructos personales constituyen el eje central del funcionamiento psicológico porque:",
+      "opcion1" : "Determinan de forma fija la manera en que el individuo percibe la realidad, sin posibilidad de cambio.",
+      "opcion2" : "Se corresponden con esquemas innatos que operan de manera inconsciente y automática.",
+      "opcion3" : "Son marcos cognitivos flexibles mediante los cuales las personas anticipan, interpretan y reconstruyen su experiencia vital.",
+      "opcion4" : "Ninguna de las anteriores",
+      "correcta" : "opcion3"
     }
   ]
 }
+
