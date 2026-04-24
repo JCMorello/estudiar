@@ -1,0 +1,611 @@
+{
+  "constitucion": [
+    {
+      "id": 1,
+      "tema": "Título Preliminar",
+      "articulo": "1.1",
+      "dificultad": "media",
+      "pregunta": "España se constituye en:",
+      "opciones": {
+        "a": "Estado liberal",
+        "b": "Estado social y democrático de Derecho",
+        "c": "Estado federal",
+        "d": "Estado autonómico"
+      },
+      "correcta": "b",
+      "explicacion": "Art.1.1 CE."
+    },
+    {
+      "id": 2,
+      "tema": "Título Preliminar",
+      "articulo": "1.1",
+      "dificultad": "alta",
+      "pregunta": "¿Cuál NO es valor superior del ordenamiento jurídico?",
+      "opciones": {
+        "a": "Libertad",
+        "b": "Justicia",
+        "c": "Igualdad",
+        "d": "Seguridad"
+      },
+      "correcta": "d",
+      "explicacion": "Valores: libertad, justicia, igualdad y pluralismo político."
+    },
+    {
+      "id": 3,
+      "tema": "Título Preliminar",
+      "articulo": "1.2",
+      "dificultad": "media",
+      "pregunta": "La soberanía nacional reside en:",
+      "opciones": {
+        "a": "El Rey",
+        "b": "Las Cortes",
+        "c": "El pueblo español",
+        "d": "El Gobierno"
+      },
+      "correcta": "c",
+      "explicacion": "Art.1.2 CE."
+    },
+    {
+      "id": 4,
+      "tema": "Título Preliminar",
+      "articulo": "1.3",
+      "dificultad": "media",
+      "pregunta": "La forma política del Estado es:",
+      "opciones": {
+        "a": "República",
+        "b": "Monarquía parlamentaria",
+        "c": "Monarquía absoluta",
+        "d": "Estado mixto"
+      },
+      "correcta": "b",
+      "explicacion": "Art.1.3 CE."
+    },
+    {
+      "id": 5,
+      "tema": "Título Preliminar",
+      "articulo": "2",
+      "dificultad": "alta",
+      "pregunta": "La Constitución se fundamenta en:",
+      "opciones": {
+        "a": "La soberanía del Rey",
+        "b": "La unidad de la Nación española",
+        "c": "El federalismo",
+        "d": "El poder autonómico"
+      },
+      "correcta": "b",
+      "explicacion": "Art.2 CE."
+    },
+
+    {
+      "id": 6,
+      "tema": "Título Preliminar",
+      "articulo": "2",
+      "dificultad": "alta",
+      "pregunta": "¿Qué reconoce la Constitución junto a la unidad?",
+      "opciones": {
+        "a": "Independencia regional",
+        "b": "Derecho a la autonomía",
+        "c": "Separación territorial",
+        "d": "Federalismo pleno"
+      },
+      "correcta": "b",
+      "explicacion": "Art.2 CE."
+    },
+    {
+      "id": 7,
+      "tema": "Título Preliminar",
+      "articulo": "3.1",
+      "dificultad": "media",
+      "pregunta": "El castellano es:",
+      "opciones": {
+        "a": "Lengua opcional",
+        "b": "Lengua oficial del Estado",
+        "c": "Lengua administrativa",
+        "d": "Lengua secundaria"
+      },
+      "correcta": "b",
+      "explicacion": "Art.3 CE."
+    },
+    {
+      "id": 8,
+      "tema": "Título Preliminar",
+      "articulo": "3.1",
+      "dificultad": "alta",
+      "pregunta": "Los españoles tienen respecto al castellano:",
+      "opciones": {
+        "a": "Solo derecho",
+        "b": "Solo deber",
+        "c": "Derecho y deber",
+        "d": "Ninguna obligación"
+      },
+      "correcta": "c",
+      "explicacion": "Art.3 CE."
+    },
+    {
+      "id": 9,
+      "tema": "Título Preliminar",
+      "articulo": "3.2",
+      "dificultad": "media",
+      "pregunta": "Las demás lenguas españolas serán:",
+      "opciones": {
+        "a": "Oficiales en todo el Estado",
+        "b": "Cooficiales en sus CCAA",
+        "c": "No oficiales",
+        "d": "Solo culturales"
+      },
+      "correcta": "b",
+      "explicacion": "Art.3 CE."
+    },
+    {
+      "id": 10,
+      "tema": "Título Preliminar",
+      "articulo": "4",
+      "dificultad": "baja",
+      "pregunta": "La bandera de España tiene:",
+      "opciones": {
+        "a": "Tres franjas iguales",
+        "b": "Dos franjas",
+        "c": "Tres franjas, siendo la amarilla doble",
+        "d": "Cuatro franjas"
+      },
+      "correcta": "c",
+      "explicacion": "Art.4 CE."
+    },
+
+    {
+      "id": 11,
+      "tema": "Título Preliminar",
+      "articulo": "5",
+      "dificultad": "baja",
+      "pregunta": "La capital del Estado es:",
+      "opciones": {
+        "a": "Barcelona",
+        "b": "Valencia",
+        "c": "Madrid",
+        "d": "Sevilla"
+      },
+      "correcta": "c",
+      "explicacion": "Art.5 CE."
+    },
+    {
+      "id": 12,
+      "tema": "Título Preliminar",
+      "articulo": "6",
+      "dificultad": "media",
+      "pregunta": "Los partidos políticos:",
+      "opciones": {
+        "a": "Dependen del Gobierno",
+        "b": "Expresan el pluralismo político",
+        "c": "Son obligatorios",
+        "d": "Son administrativos"
+      },
+      "correcta": "b",
+      "explicacion": "Art.6 CE."
+    },
+    {
+      "id": 13,
+      "tema": "Título Preliminar",
+      "articulo": "7",
+      "dificultad": "media",
+      "pregunta": "Los sindicatos:",
+      "opciones": {
+        "a": "Son ilegales",
+        "b": "Defienden intereses sociales",
+        "c": "Dependen del Estado",
+        "d": "Son políticos"
+      },
+      "correcta": "b",
+      "explicacion": "Art.7 CE."
+    },
+    {
+      "id": 14,
+      "tema": "Título Preliminar",
+      "articulo": "8",
+      "dificultad": "alta",
+      "pregunta": "Las Fuerzas Armadas tienen como misión:",
+      "opciones": {
+        "a": "Gobernar",
+        "b": "Garantizar la Constitución",
+        "c": "Defender la soberanía e integridad territorial",
+        "d": "Legislar"
+      },
+      "correcta": "c",
+      "explicacion": "Art.8 CE."
+    },
+    {
+      "id": 15,
+      "tema": "Título Preliminar",
+      "articulo": "9.1",
+      "dificultad": "media",
+      "pregunta": "Los ciudadanos están sujetos a:",
+      "opciones": {
+        "a": "El Gobierno",
+        "b": "La Constitución y el ordenamiento jurídico",
+        "c": "Las Cortes",
+        "d": "El Rey"
+      },
+      "correcta": "b",
+      "explicacion": "Art.9 CE."
+    },
+    {
+      "id": 26,
+      "tema": "Título Preliminar",
+      "articulo": "9.2",
+      "dificultad": "alta",
+      "pregunta": "Los poderes públicos deben:",
+      "opciones": {
+        "a": "Mantener el orden público exclusivamente",
+        "b": "Promover condiciones para libertad e igualdad reales",
+        "c": "Limitar derechos fundamentales",
+        "d": "Ejercer control absoluto"
+      },
+      "correcta": "b",
+      "explicacion": "Art.9.2 CE."
+    },
+    {
+      "id": 27,
+      "tema": "Título Preliminar",
+      "articulo": "9.3",
+      "dificultad": "alta",
+      "pregunta": "¿Cuál es un principio constitucional?",
+      "opciones": {
+        "a": "Arbitrariedad",
+        "b": "Irretroactividad de normas sancionadoras no favorables",
+        "c": "Centralización",
+        "d": "Discrecionalidad plena"
+      },
+      "correcta": "b",
+      "explicacion": "Art.9.3 CE."
+    },
+    {
+      "id": 28,
+      "tema": "Título Preliminar",
+      "articulo": "9.3",
+      "dificultad": "media",
+      "pregunta": "La jerarquía normativa implica:",
+      "opciones": {
+        "a": "Todas las normas iguales",
+        "b": "Normas superiores prevalecen sobre inferiores",
+        "c": "El Gobierno decide",
+        "d": "El Rey legisla"
+      },
+      "correcta": "b",
+      "explicacion": "Art.9.3 CE."
+    },
+    {
+      "id": 29,
+      "tema": "Título I",
+      "articulo": "10.1",
+      "dificultad": "media",
+      "pregunta": "La dignidad de la persona es:",
+      "opciones": {
+        "a": "Un derecho secundario",
+        "b": "Fundamento del orden político",
+        "c": "Un principio económico",
+        "d": "Una norma administrativa"
+      },
+      "correcta": "b",
+      "explicacion": "Art.10.1 CE."
+    },
+    {
+      "id": 30,
+      "tema": "Título I",
+      "articulo": "10.2",
+      "dificultad": "alta",
+      "pregunta": "Los derechos fundamentales se interpretan conforme a:",
+      "opciones": {
+        "a": "Normas autonómicas",
+        "b": "Tratados internacionales de derechos humanos",
+        "c": "Decisiones del Gobierno",
+        "d": "Reglamentos locales"
+      },
+      "correcta": "b",
+      "explicacion": "Art.10.2 CE."
+    },
+
+    {
+      "id": 31,
+      "tema": "Título I",
+      "articulo": "11",
+      "dificultad": "media",
+      "pregunta": "La nacionalidad española:",
+      "opciones": {
+        "a": "Es irrevocable siempre",
+        "b": "Se adquiere según la ley",
+        "c": "La concede el Gobierno libremente",
+        "d": "Depende de la UE"
+      },
+      "correcta": "b",
+      "explicacion": "Art.11 CE."
+    },
+    {
+      "id": 32,
+      "tema": "Título I",
+      "articulo": "12",
+      "dificultad": "baja",
+      "pregunta": "La mayoría de edad es:",
+      "opciones": {
+        "a": "16 años",
+        "b": "18 años",
+        "c": "21 años",
+        "d": "Depende de la ley autonómica"
+      },
+      "correcta": "b",
+      "explicacion": "Art.12 CE."
+    },
+    {
+      "id": 33,
+      "tema": "Título I",
+      "articulo": "13",
+      "dificultad": "alta",
+      "pregunta": "Los extranjeros:",
+      "opciones": {
+        "a": "No tienen derechos",
+        "b": "Gozan de libertades públicas según ley",
+        "c": "Tienen más derechos que españoles",
+        "d": "Solo derechos económicos"
+      },
+      "correcta": "b",
+      "explicacion": "Art.13 CE."
+    },
+    {
+      "id": 34,
+      "tema": "Título I",
+      "articulo": "14",
+      "dificultad": "media",
+      "pregunta": "El principio de igualdad implica:",
+      "opciones": {
+        "a": "Igualdad absoluta siempre",
+        "b": "No discriminación por circunstancias personales",
+        "c": "Igualdad económica",
+        "d": "Igualdad política exclusiva"
+      },
+      "correcta": "b",
+      "explicacion": "Art.14 CE."
+    },
+    {
+      "id": 35,
+      "tema": "Título I",
+      "articulo": "15",
+      "dificultad": "media",
+      "pregunta": "El derecho a la vida incluye:",
+      "opciones": {
+        "a": "Pena de muerte general",
+        "b": "Prohibición de tortura",
+        "c": "Limitación judicial",
+        "d": "Ninguna protección"
+      },
+      "correcta": "b",
+      "explicacion": "Art.15 CE."
+    },
+
+    {
+      "id": 36,
+      "tema": "Título I",
+      "articulo": "16",
+      "dificultad": "media",
+      "pregunta": "España es:",
+      "opciones": {
+        "a": "Estado confesional",
+        "b": "Sin religión oficial",
+        "c": "Religión obligatoria",
+        "d": "Estado ateo"
+      },
+      "correcta": "b",
+      "explicacion": "Art.16 CE."
+    },
+    {
+      "id": 37,
+      "tema": "Título I",
+      "articulo": "17",
+      "dificultad": "alta",
+      "pregunta": "La detención preventiva máxima es:",
+      "opciones": {
+        "a": "24 horas",
+        "b": "48 horas",
+        "c": "72 horas",
+        "d": "96 horas"
+      },
+      "correcta": "c",
+      "explicacion": "Art.17 CE."
+    },
+    {
+      "id": 38,
+      "tema": "Título I",
+      "articulo": "18",
+      "dificultad": "media",
+      "pregunta": "El domicilio es:",
+      "opciones": {
+        "a": "Registrable libremente",
+        "b": "Inviolable salvo resolución judicial",
+        "c": "Propiedad del Estado",
+        "d": "Limitado siempre"
+      },
+      "correcta": "b",
+      "explicacion": "Art.18 CE."
+    },
+    {
+      "id": 39,
+      "tema": "Título I",
+      "articulo": "19",
+      "dificultad": "baja",
+      "pregunta": "El derecho a circular implica:",
+      "opciones": {
+        "a": "Restricción estatal",
+        "b": "Libre circulación en territorio nacional",
+        "c": "Permiso obligatorio",
+        "d": "Limitado a provincias"
+      },
+      "correcta": "b",
+      "explicacion": "Art.19 CE."
+    },
+    {
+      "id": 40,
+      "tema": "Título I",
+      "articulo": "20",
+      "dificultad": "alta",
+      "pregunta": "La libertad de expresión:",
+      "opciones": {
+        "a": "Tiene censura previa",
+        "b": "No puede restringirse con censura previa",
+        "c": "Depende del Gobierno",
+        "d": "Es limitada totalmente"
+      },
+      "correcta": "b",
+      "explicacion": "Art.20 CE."
+    },
+
+    {
+      "id": 41,
+      "tema": "Título I",
+      "articulo": "21",
+      "dificultad": "media",
+      "pregunta": "El derecho de reunión:",
+      "opciones": {
+        "a": "Requiere autorización",
+        "b": "No requiere autorización previa",
+        "c": "Está prohibido",
+        "d": "Solo con permiso judicial"
+      },
+      "correcta": "b",
+      "explicacion": "Art.21 CE."
+    },
+    {
+      "id": 42,
+      "tema": "Título I",
+      "articulo": "22",
+      "dificultad": "media",
+      "pregunta": "Las asociaciones ilegales son:",
+      "opciones": {
+        "a": "Las deportivas",
+        "b": "Las que persiguen fines delictivos",
+        "c": "Las públicas",
+        "d": "Las sindicales"
+      },
+      "correcta": "b",
+      "explicacion": "Art.22 CE."
+    },
+    {
+      "id": 43,
+      "tema": "Título I",
+      "articulo": "23",
+      "dificultad": "media",
+      "pregunta": "El derecho de participación política se ejerce:",
+      "opciones": {
+        "a": "Solo directamente",
+        "b": "Directamente o mediante representantes",
+        "c": "Solo por partidos",
+        "d": "Solo en elecciones"
+      },
+      "correcta": "b",
+      "explicacion": "Art.23 CE."
+    },
+    {
+      "id": 44,
+      "tema": "Título I",
+      "articulo": "24",
+      "dificultad": "alta",
+      "pregunta": "La tutela judicial efectiva implica:",
+      "opciones": {
+        "a": "Juicio rápido",
+        "b": "No indefensión",
+        "c": "Decisión política",
+        "d": "Solo tribunales superiores"
+      },
+      "correcta": "b",
+      "explicacion": "Art.24 CE."
+    },
+    {
+      "id": 45,
+      "tema": "Título I",
+      "articulo": "25",
+      "dificultad": "alta",
+      "pregunta": "Nadie puede ser sancionado por hechos:",
+      "opciones": {
+        "a": "No tipificados previamente",
+        "b": "Posteriores",
+        "c": "Graves",
+        "d": "Administrativos"
+      },
+      "correcta": "a",
+      "explicacion": "Art.25 CE."
+    },
+
+    {
+      "id": 46,
+      "tema": "Título I",
+      "articulo": "27",
+      "dificultad": "media",
+      "pregunta": "La enseñanza básica es:",
+      "opciones": {
+        "a": "Opcional",
+        "b": "Obligatoria y gratuita",
+        "c": "Privada",
+        "d": "Limitada"
+      },
+      "correcta": "b",
+      "explicacion": "Art.27 CE."
+    },
+    {
+      "id": 47,
+      "tema": "Título I",
+      "articulo": "28",
+      "dificultad": "media",
+      "pregunta": "El derecho de sindicación:",
+      "opciones": {
+        "a": "Es obligatorio",
+        "b": "Es libre",
+        "c": "Depende del Estado",
+        "d": "Es limitado totalmente"
+      },
+      "correcta": "b",
+      "explicacion": "Art.28 CE."
+    },
+    {
+      "id": 48,
+      "tema": "Título I",
+      "articulo": "29",
+      "dificultad": "baja",
+      "pregunta": "El derecho de petición se ejerce:",
+      "opciones": {
+        "a": "Verbalmente",
+        "b": "Por escrito",
+        "c": "Solo judicialmente",
+        "d": "Solo colectivamente"
+      },
+      "correcta": "b",
+      "explicacion": "Art.29 CE."
+    },
+    {
+      "id": 49,
+      "tema": "Título I",
+      "articulo": "30",
+      "dificultad": "media",
+      "pregunta": "Los españoles tienen el deber de:",
+      "opciones": {
+        "a": "Trabajar",
+        "b": "Defender España",
+        "c": "Votar",
+        "d": "Pagar impuestos"
+      },
+      "correcta": "b",
+      "explicacion": "Art.30 CE."
+    },
+    {
+      "id": 50,
+      "tema": "Título I",
+      "articulo": "31",
+      "dificultad": "media",
+      "pregunta": "El sistema tributario se basa en:",
+      "opciones": {
+        "a": "Igualdad y progresividad",
+        "b": "Arbitrariedad",
+        "c": "Libre mercado",
+        "d": "Centralización"
+      },
+      "correcta": "a",
+      "explicacion": "Art.31 CE."
+    }
+  ]
+
+}

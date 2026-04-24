@@ -1,19 +1,22 @@
-# 🧠 Estudiar – Aplicación de tests en PHP
+# 🧠 Estudiar - Test de Constitucion
 
-Una sencilla aplicación web en **PHP + Bootstrap** para practicar preguntas tipo test.  
-Permite seleccionar un temario, elegir cuántas preguntas hacer y ver tus resultados con aciertos y errores al final.
+Una sencilla aplicación web en **HTML, JavaScript y Bootstrap** para practicar preguntas tipo test de Constitucion.
+Permite elegir cuántas preguntas hacer y ver tus resultados con aciertos, errores, respuesta correcta y explicacion.
+
+https://jcmorello.github.io/estudiar/
 
 ---
 
 ## 🚀 Características
 
-- Selección de **temario** y **número de preguntas** desde la página principal.
-- Carga dinámica de preguntas desde un archivo **JSON**.
+- Selección del **número de preguntas** desde la página principal.
+- Carga dinámica de preguntas desde `preguntas_constitucion.json`.
 - Evaluación automática de respuestas.
 - Resumen final con:
   - Pregunta.
   - Tu respuesta.
   - Respuesta correcta.
+  - Explicacion.
   - Contador de aciertos y fallos.
 - Diseño adaptado con **Bootstrap 5**.
 
@@ -21,8 +24,8 @@ Permite seleccionar un temario, elegir cuántas preguntas hacer y ver tus result
 
 ## 🧰 Tecnologías utilizadas
 
-- PHP 8+
 - HTML5 + CSS3
+- JavaScript
 - [Bootstrap 5](https://getbootstrap.com/)
 - JSON para las preguntas
 
