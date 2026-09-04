@@ -1,27 +1,31 @@
-const TEMARIO = "constitucion";
-const NOMBRE_TEMARIO = "Constitucion";
+const ARCHIVO_PREGUNTAS = "preguntas_valencia.json";
+
+function cargarPreguntas() {
+    return fetch(ARCHIVO_PREGUNTAS).then(r => r.json());
+}
 
 if (document.getElementById("formInicio")) {
+    const selectorTema = document.getElementById("tema");
+
+    cargarPreguntas().then(data => {
+        const temas = [...new Set(data.valencia.map(pregunta => pregunta.tema))];
+
+        selectorTema.innerHTML = temas
+            .map(tema => `<option value="${tema}">${tema}</option>`)
+            .join("");
+    });
+
     document.getElementById("formInicio").addEventListener("submit", (e) => {
         e.preventDefault();
 
         const numPreguntas = parseInt(document.getElementById("num_preguntas").value);
+        const tema = selectorTema.value;
 
         sessionStorage.setItem("numPreguntas", numPreguntas);
+        sessionStorage.setItem("tema", tema);
 
         window.location.href = "test.html";
     });
-}
-
-function seleccionarPreguntasSinRepetir(lista, cantidad) {
-    const copia = [...lista];
-
-    for (let i = copia.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [copia[i], copia[j]] = [copia[j], copia[i]];
-    }
-
-    return copia.slice(0, Math.min(cantidad, copia.length));
 }
 
 function obtenerOpciones(pregunta) {
@@ -38,22 +42,21 @@ function obtenerTextoRespuesta(pregunta, respuesta) {
 
 if (document.getElementById("formTest")) {
     const numPreguntas = parseInt(sessionStorage.getItem("numPreguntas")) || 10;
+    const tema = sessionStorage.getItem("tema");
 
-    fetch("preguntas_constitucion.json")
-        .then(r => r.json())
+    cargarPreguntas()
         .then(data => {
-            const preguntas = data[TEMARIO] || [];
-
-            const seleccion = seleccionarPreguntasSinRepetir(preguntas, numPreguntas);
+            const preguntasTema = data.valencia.filter(pregunta => pregunta.tema === tema);
+            const seleccion = preguntasTema.slice(0, Math.min(numPreguntas, preguntasTema.length));
 
             sessionStorage.setItem("preguntasActuales", JSON.stringify(seleccion));
 
-            generarFormulario(seleccion);
+            generarFormulario(seleccion, tema);
         });
 }
 
-function generarFormulario(preguntas) {
-    document.getElementById("tituloTest").textContent = "🧩 Test de " + NOMBRE_TEMARIO;
+function generarFormulario(preguntas, tema) {
+    document.getElementById("tituloTest").textContent = "🧩 Test de " + tema;
 
     const form = document.getElementById("formTest");
     const btnEnviar = document.getElementById("btnEnviar");

@@ -14,13 +14,20 @@
 
             <div class="card shadow-sm">
                 <div class="card-body">
-                    <h1 class="text-center mb-4">🧠 Test de Constitucion</h1>
+                    <h1 class="text-center mb-4">🧠 Test de Valenciano</h1>
 
                     <form id="formInicio">
                         <div class="mb-3">
+                            <label for="tema" class="form-label">Tema:</label>
+                            <select class="form-select" id="tema" required>
+                                <option value="">Cargando temas...</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
                             <label for="num_preguntas" class="form-label">Número de preguntas:</label>
                             <input type="number" class="form-control" id="num_preguntas"
-                                   min="1" max="50" value="10" required>
+                                   min="1" max="31" value="31" required>
                         </div>
 
                         <div class="d-grid">
